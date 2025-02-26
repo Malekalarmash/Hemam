@@ -2,23 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500');
 
 :root {
-  --background: #F6F6F6;
+  --background: #FEFEFE;
   --foreground: #2C2C2C;
+
 }
 
-
-@media (prefers-color-scheme: dark) {
+/* Dark Mode */
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #F6F6F6;
+    
+    --background: linear-gradient( #E8F2F0,#FEFEFE );
     --foreground: #2C2C2C;
   }
-}
+} */
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: 'Poppins', sans-serif;
+  background-color:#FEFEFE ;
+  font-family: 'Poppins';
+  background-image: linear-gradient( #E8F2F0,#FEFEFE );
+  min-height: 100vh;
+}
+.signup-btn {
+  border: solid 1px ;
+  border-color: #005364;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
