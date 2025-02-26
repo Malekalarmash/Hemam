@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flex p-4 bg-transparent place-content-between w-full padding:8px">   
             <button className="signup-btn">تسجيل الدخول</button>    
         <ul className="flex space-x-6 rtl:space-x-reverse item-center">
-            <li><a href="#blog" className="text-right">تواصل معنا</a></li>
+            <li><a href="#contact" className="text-right">تواصل معنا</a></li>
             <li><a href="#contact" className="text-right">المتصدرين</a></li>
             <li><a href="#portfolio" className="text-right">قصص نجاح</a></li>
             <li><a href="#organizations" className="text-right">المنظمات</a></li>
